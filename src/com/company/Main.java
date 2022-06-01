@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Main {
+ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Bienvenido a la practica de Git");
@@ -10,7 +10,9 @@ public class Main {
         Gato gato = new Gato();
         Perro perro = new Perro();
         Scanner sc = new Scanner(System.in);
-        String opcion = sc.nextLine();
+        Menu menu = new Menu();
+        menu.menuReportes();
+
 
     }
 }
