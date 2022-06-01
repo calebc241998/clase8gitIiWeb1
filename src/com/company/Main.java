@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,7 +9,8 @@ public class Main {
 
         Gato gato = new Gato();
         Perro perro = new Perro();
-
+        Scanner sc = new Scanner(System.in);
+        String opcion = sc.nextLine();
 
     }
 }
